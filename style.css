@@ -1,0 +1,16 @@
+body {
+  color: #111111;
+  font-weight: 500;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #111111;
+}
+
+a {
+  color: #0a0a0a;
+  text-decoration: underline;
+}

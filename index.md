@@ -2,7 +2,7 @@
 layout: default
 title: Brian Lim's Blog
 ---
-# **Introduction
+# <strong>Introduction
 
 <strong>Welcome to my super blog dedicated to the things that I learned throughtout the TER course taken in Grade 11. <br>
 <strong>This blog features notes, ideas, comments and other discoveries I make. <br> 

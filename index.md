@@ -10,4 +10,4 @@ title: Brian Lim's Blog
 <strong>You can explore a list of the blogs I have written below: <br>
 
 ## Table of Contents
- - [Exploratory Data Analysis](./blogs/2025-11-12-eda.md)
+ - [2025-11-12 Exploratory Data Analysis](./blogs/2025-11-12-eda.md)

@@ -1,26 +1,20 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-  </head>
+  {% include head.html %}
 
   <body>
 
-    <!-- 🔥 Add your HOME button navbar here -->
-    <div style="padding: 10px; background: #eee; text-align: center;">
-      <a href="/" style="font-weight: bold; text-decoration: none;">Home</a>
+    {% if page.url != "/" %}
+    <div style="padding:10px; text-align:center; background:transparent;">
+      <a href="/" style="font-weight:600; text-decoration:none;">← Home</a>
     </div>
+    {% endif %}
 
-    <section>
+    <main>
       {{ content }}
-    </section>
+    </main>
 
-    <footer>
-      <p>© {{ site.title }}</p>
-    </footer>
+    {% include footer.html %}
+    {% include scripts.html %}
   </body>
 </html>

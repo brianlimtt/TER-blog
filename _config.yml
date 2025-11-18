@@ -1,8 +1,3 @@
 theme: jekyll-theme-tactile
 title: "TER Blog"
 description: "Blog dedicated to the TER course taken in Grade 11"
-
-
-collections:
-  blogs:
-    output: true

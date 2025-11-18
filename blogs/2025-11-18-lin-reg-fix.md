@@ -2,7 +2,7 @@
 
 # Fixing a Linear Regression Notebook & Key Lessons Learned
 
-### 🔗 Quick Access  
+### Quick Access  
 - **GitHub Repository:** [Link](https://github.com/brianlimtt/lin-reg-fix/)  
 - **Jupyter Notebook (.ipynb):** [Link](https://github.com/brianlimtt/lin-reg-fix/blob/main/assets/lin_reg/linear-regression-tutorial.ipynb)
 
@@ -99,9 +99,9 @@ To fix this, we applied a **log transform** to the Size variable, which straight
 ### Final Model
 The best-fitting line after transforming the data is:
 
-\[
+$$
 \text{Price} = 0.2089 \cdot \log(\text{Size}) - 0.0273
-\]
+$$
 
 - **Size** is in square meters  
 - **Price** is in millions of dollars  
@@ -109,20 +109,16 @@ The best-fitting line after transforming the data is:
 ### Example Prediction  
 Predict the price of a **1000 m²** property:
 
-\[
-\text{Price}(1000) = 0.2089 \cdot \log(1000) - 0.0273
-\]
-
-\[
-= 0.2089 \cdot 6.907 - 0.0273 \approx 1.42\text{ million}
-\]
+$$
+\text{Price}(1000) = 0.2089 \cdot \log(1000) - 0.0273 \approx 1.42 \text{ million}
+$$
 
 ### How to Use the Model Yourself
 Replace the Size value with any property area:
 
-\[
+$$
 \text{Price}(\text{your size}) = 0.2089 \cdot \log(\text{your size}) - 0.0273
-\]
+$$
 
 ## Property Size vs. Price
 

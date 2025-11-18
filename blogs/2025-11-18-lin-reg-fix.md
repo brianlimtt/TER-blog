@@ -128,26 +128,4 @@ Replace the Size value with any property area:
 
 This plot shows the relationship between property size (m²) and price (million $), with a fitted regression line:
 
-```python
-import matplotlib.pyplot as plt
-import numpy as np
-from sklearn.linear_model import LinearRegression
-
-# Data
-X = np.array([40.7742274269, 40.7742274269, 40.7742274269, 40.7742274269,
-              37.639355849, 44.170193266, 37.639355849]).reshape(-1, 1)
-y = np.array([0.2, 0.4, 0.6, 0.8, 0.8, 0.8, 0])
-
-# Fit linear regression
-model = LinearRegression()
-model.fit(X, y)
-y_pred = model.predict(X)
-
-# Plot
-plt.scatter(X, y, color='blue', label='Data points')
-plt.plot(X, y_pred, color='red', linewidth=2, label='Fitted line')
-plt.xlabel('Property Size (m²)')
-plt.ylabel('Price (million $)')
-plt.title('Property Size vs Price')
-plt.legend()
-plt.show()
+![Log-Transformed Linear Regression](images/Log-Transformed%20Linear%20Regression.png)

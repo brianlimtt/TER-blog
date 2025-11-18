@@ -124,4 +124,4 @@ $$
 
 This plot shows the relationship between property size (m²) and price (million $), with a fitted regression line:
 
-![Log-Transformed Linear Regression](images/Log-Transformed%20Linear%20Regression.png)
+![Log-Transformed Linear Regression](images/log_transformed_linear_regression.png)

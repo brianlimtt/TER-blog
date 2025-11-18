@@ -100,20 +100,24 @@ To fix this, we applied a **log transform** to the Size variable, which straight
 ### Final Model
 The best-fitting line after transforming the data is:
 
-$$ \text{Price} = 0.2089 \cdot \log(\text{Size}) - 0.0273 $$
+<p style="text-align:center; font-size: 1.2em;">
+Price = 0.2089 × log(Size) − 0.0273
+</p>
 
-- **Size** is in square meters  
-- **Price** is in millions of dollars  
+Size is in square meters  
+Price is in millions of dollars  
 
-### Example Prediction  
-Predict the price of a **1000 m²** property:
+### Example Prediction
 
-$$ \text{Price}(1000) = 0.2089 \cdot \log(1000) - 0.0273 \approx 1.42 \text{ million} $$
+<p style="text-align:center; font-size: 1.2em;">
+Price(1000) = 0.2089 × log(1000) − 0.0273 ≈ 1.42 million
+</p>
 
 ### How to Use the Model Yourself
-Replace the Size value with any property area:
 
-$$ \text{Price}(\text{your size}) = 0.2089 \cdot \log(\text{your size}) - 0.0273 $$
+<p style="text-align:center; font-size: 1.2em;">
+Price(your size) = 0.2089 × log(your size) − 0.0273
+</p>
 
 ## Property Size vs. Price
 

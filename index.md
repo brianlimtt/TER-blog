@@ -10,6 +10,12 @@ title: Brian Lim's Blog
 <strong>You can explore a list of the blogs I have written below: <br>
 
 ## Table of Contents
- - [2025-11-12 Exploratory Data Analysis](./blogs/2025-11-12-eda.md)
+Here are my latest posts:
 
- - [2025-11-18 Linear Regression Fix](./blogs/2025-11-18-lin-reg-fix.md)
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%b %-d, %Y" }}
+    </li>
+  {% endfor %}
+</ul>

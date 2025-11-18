@@ -11,3 +11,5 @@ title: Brian Lim's Blog
 
 ## Table of Contents
  - [2025-11-12 Exploratory Data Analysis](./blogs/2025-11-12-eda.md)
+
+ - [2025-11-18 Linear Regression Fix](.blogs/2025-11-18-lin-reg-fix.md)

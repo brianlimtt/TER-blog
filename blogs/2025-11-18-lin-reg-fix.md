@@ -1,9 +1,3 @@
----
-layout: post
-title: "Linear Regression Fix"
-date: 2025-11-18
----
-
 [← Home](https://brianlimtt.github.io/TER-blog/)<br>
 
 # Fixing a Linear Regression Notebook & Key Lessons Learned

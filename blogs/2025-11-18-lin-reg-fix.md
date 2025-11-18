@@ -1,3 +1,5 @@
+[← Home](https://brianlimtt.github.io/TER-blog/)<br>
+
 # Fixing a Linear Regression Notebook & Key Lessons Learned
 
 ## Table of Contents
@@ -79,3 +81,7 @@ This workflow keeps your work organized and allows collaboration without affecti
 ---
 
 By following these principles, you can confidently work with Jupyter notebooks, fix common issues, and contribute improvements to shared projects.
+
+<br>
+You can find the github link over here [Github Link](https://github.com/brianlimtt/lin-reg-fix/)
+You can find the ipynb link over here [Ipynb Link](https://github.com/brianlimtt/lin-reg-fix/blob/main/assets/lin_reg/linear-regression-tutorial.ipynb)

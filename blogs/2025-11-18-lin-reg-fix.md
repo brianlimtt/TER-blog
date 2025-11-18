@@ -1,7 +1,8 @@
 [← Home](https://brianlimtt.github.io/TER-blog/)<br>
 
 # Fixing a Linear Regression Notebook & Key Lessons Learned
-
+<br>
+<br>
 ### Quick Access  
 - **GitHub Repository:** [Link](https://github.com/brianlimtt/lin-reg-fix/)  
 - **Jupyter Notebook (.ipynb):** [Link](https://github.com/brianlimtt/lin-reg-fix/blob/main/assets/lin_reg/linear-regression-tutorial.ipynb)

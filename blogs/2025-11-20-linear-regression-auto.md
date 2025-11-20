@@ -22,7 +22,8 @@ This project explores the relationship between **horsepower** and **price** of v
 ## Data Exploration
 
 We started by inspecting the dataset, checking for missing values, and visualizing relationships. Scatter plots between **horsepower** and **price** revealed a roughly linear trend, which is ideal for linear regression.
-
+<br>
+(images/mpg vs horsepower with regression line.png)
 > *Figure 1: Scatter plot showing the relationship between horsepower and price.*
 
 ---

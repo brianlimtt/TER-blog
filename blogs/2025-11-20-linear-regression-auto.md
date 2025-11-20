@@ -1,5 +1,5 @@
 [← Home](https://brianlimtt.github.io/TER-blog/)<br>
-- **Jupyter Notebook (.ipynb):** [Link](https://github.com/brianlimtt/lin-reg-fix/blob/main/assets/lin_reg/linear-regression-tutorial.ipynb)
+- **Jupyter Notebook (.ipynb):** [Link](https://github.com/brianlimtt/TER/blob/main/linear-regression-auto/Linear%20Regression%20Auto.ipynb)
   <br>
   <br>
 # Linear Regression Analysis of Horsepower vs. Price

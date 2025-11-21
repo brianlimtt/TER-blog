@@ -32,9 +32,9 @@ We started by inspecting the dataset, checking for missing values, and visualizi
 
 A linear regression model was created to estimate the relationship between horsepower and price. The regression equation is:
 
-\[
+$$
 \text{Price} = \beta_0 + \beta_1 \cdot \text{Horsepower}
-\]
+$$
 
 Where:  
 - `β0` = intercept  
@@ -50,6 +50,7 @@ Using the regression model, we can predict the price of a vehicle with a given h
 
 Predictions also include a **95% confidence interval**, showing the range in which we can be reasonably confident the true price falls.
 
+![Residuals vs Fitted ](images/residuals_vs_fitted.png)
 > *Figure 2: Visualization of predicted prices with confidence intervals.*
 
 ---
@@ -61,6 +62,7 @@ The model was evaluated for accuracy and reliability:
 - **R-squared**: Measures how much of the variation in price is explained by horsepower.  
 - **Residual analysis**: Checks for patterns that might indicate violations of linear regression assumptions, such as non-linearity or inconsistent spread of residuals.
 
+![QQ Plot of Residuals](images/qq_plot_of_residuals.png)
 > *Figure 3: Residual plot showing the spread of residuals around zero.*
 
 ---

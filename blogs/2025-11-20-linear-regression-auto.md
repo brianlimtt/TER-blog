@@ -85,4 +85,5 @@ The model was evaluated for accuracy and reliability:
 
 ---
 
+![Scale-location Plot](images/scale_location_plot.png)
 > *This analysis demonstrates a straightforward application of linear regression to real-world vehicle data, showing how predictive modeling can help understand and forecast trends.*

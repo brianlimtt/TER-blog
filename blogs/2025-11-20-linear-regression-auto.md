@@ -10,7 +10,7 @@ This project explores the relationship between **horsepower** and **price** of v
 
 ---
 
-## Table of Contents
+## Table of Contents Q8
 1. [Data Exploration](#data-exploration)
 2. [Building the Model](#building-the-model)
 3. [Making Predictions](#making-predictions)
@@ -66,7 +66,7 @@ The model was evaluated for accuracy and reliability:
 ![QQ Plot of Residuals](images/qq_plot_of_residuals.png)
 > *Figure 3: Residual plot showing the spread of residuals around zero.*
 
----
+--- 
 
 ## Key Takeaways
 
@@ -88,3 +88,142 @@ The model was evaluated for accuracy and reliability:
 
 ![Scale-location Plot](images/scale_location_plot.png)
 > *This analysis demonstrates a straightforward application of linear regression to real-world vehicle data, showing how predictive modeling can help understand and forecast trends.*
+
+
+
+# 🚗 Auto Dataset Analysis — Scatterplot Matrix, Correlation Matrix, and Multiple Linear Regression
+
+## Table of Contents
+1. Introduction  
+2. About the Dataset  
+3. Cleaning the Data  
+4. Scatterplot Matrix  
+5. Correlation Matrix  
+6. Multiple Linear Regression  
+7. Key Findings  
+8. Conclusion  
+
+---
+
+## Introduction
+In this analysis, I explored the Auto dataset, which contains information on fuel efficiency (mpg), engine characteristics, vehicle weight, acceleration, model year, and country of origin.
+
+The goal of this project was to:
+- examine pairwise variable relationships  
+- compute correlations  
+- clean the dataset and remove missing values  
+- build a multiple linear regression model predicting **mpg**  
+- interpret statistical significance and trends  
+
+This follows typical textbook regression questions but applied to a real dataset.
+
+---
+
+## About the Dataset
+The dataset includes the following variables:
+
+- mpg  
+- cylinders  
+- displacement  
+- horsepower  
+- weight  
+- acceleration  
+- year  
+- origin  
+- name  
+
+The target variable is **mpg**, while all others serve as predictors or categorical identifiers.
+
+---
+
+## Cleaning the Data
+The raw dataset contained missing entries marked as `"?"`. These were converted into `NaN` values and dropped to form a clean analysis-ready dataset.
+
+All variables except `name` were converted to numeric types to prepare for correlation and regression analysis.
+
+After cleaning, we retained **392 complete observations**.
+
+---
+
+## Scatterplot Matrix
+A **seaborn pairplot** was used to generate a scatterplot matrix of all numerical variables.
+
+This visualization helps identify:
+- linear trends  
+- outliers  
+- nonlinear relationships  
+- clusters  
+- positive and negative correlations  
+
+The pairplot clearly shows that **mpg decreases** as weight, displacement, horsepower, or cylinders increase.
+
+---
+
+## Correlation Matrix
+Next, a correlation matrix was computed using only numeric columns.
+
+Key observations:
+
+- **mpg** has strong negative correlations with  
+  - weight (≈ -0.83)  
+  - displacement (≈ -0.80)  
+  - horsepower (≈ -0.78)  
+  - cylinders (≈ -0.78)
+
+- Strong positive correlations exist between predictors, e.g.:  
+  - displacement & cylinders (≈ 0.95)  
+  - displacement & weight (≈ 0.93)
+
+This indicates **multicollinearity**, meaning many predictors carry redundant information.
+
+A heatmap was generated to visually show these relationships.
+
+---
+
+## Multiple Linear Regression
+A multiple linear regression model was fit with **mpg** as the response and all other numeric variables as predictors.
+
+### Model Performance:
+- R-squared: **0.821**  
+- Adjusted R-squared: **0.818**  
+- F-statistic: extremely significant  
+
+This means the model explains **82%** of the variance in mpg.
+
+### Significant Predictors (p < 0.05):
+- displacement (positive coefficient)  
+- weight (negative coefficient)  
+- year (positive coefficient)  
+- origin (positive coefficient)  
+
+### Non-significant Predictors:
+- cylinders  
+- horsepower  
+- acceleration  
+
+Because of multicollinearity, some variables become statistically insignificant once others are included in the model.
+
+### Notes:
+- Condition number was high (~8.6e4), confirming multicollinearity issues.  
+- Weight had the strongest individual effect, with a large negative coefficient.
+
+---
+
+## Key Findings
+- Cars become more fuel-efficient over the years (positive coefficient for year).  
+- Vehicles from certain origins (e.g., Japan, Europe) tend to have higher mpg.  
+- Weight is the single strongest negative predictor of mpg.  
+- High correlations between engine size variables lead to multicollinearity.  
+- Even with multicollinearity, the model still provides strong predictive power.
+
+---
+
+## Conclusion
+This project combined visualization, data cleaning, correlation analysis, and multiple regression modeling into a complete statistical workflow.
+
+By exploring scatterplots, correlations, and model outputs, we gained a detailed understanding of which features drive fuel efficiency and how they interact.
+
+This mirrors the structure of advanced introductory regression problems, but executed with a real dataset and professional analysis tools.
+
+
+

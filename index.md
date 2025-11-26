@@ -18,3 +18,5 @@ title: Brian Lim's Blog
  - [2025-11-18 Key Points from ISLP](https://brianlimtt.github.io/TER-blog/blogs/2025-11-18-islp.html)
 
  - [2025-11-20 Linear Regression Auto Q 8&9](https://brianlimtt.github.io/TER-blog/blogs/2025-11-20-linear-regression-auto.html)
+
+ - [2025-11-26 Clasification Assingment](https://github.com/brianlimtt/TER-blog/blob/main/blogs/2025-11-26-classification-assingment.html)

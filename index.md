@@ -20,3 +20,5 @@ title: Brian Lim's Blog
  - [2025-11-20 Linear Regression Auto Q 8&9](https://brianlimtt.github.io/TER-blog/blogs/2025-11-20-linear-regression-auto.html)
 
  - [2025-11-26 Clasification Assingment](https://brianlimtt.github.io/TER-blog/blogs/2025-11-26-classification-assingment.html)
+
+ - [2026-1-21 Predicting Student Test Scores](https://brianlimtt.github.com/TER-blog/blogs/2026-1-21-predicting-student-test-scores)

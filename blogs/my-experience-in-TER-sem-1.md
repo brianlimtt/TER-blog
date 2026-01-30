@@ -91,4 +91,4 @@ Through EDA, ISLP concepts, regression, classification, and cumulative units, I 
 
 This course has laid a strong foundation for future work in data science, research, and analytical fields.
 
-I would truly love to take this course again in the future and I recommend it to  all students, no matter what field they are interested in. 
+I would truly love to take this course again in the future and I recommend taking it to all students, no matter what field they are interested in. 

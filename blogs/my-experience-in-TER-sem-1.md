@@ -90,3 +90,5 @@ Overall, the TER course significantly strengthened my analytical skills and unde
 Through EDA, ISLP concepts, regression, classification, and cumulative units, I gained a deeper appreciation for the **process** behind data science. While the technical skills were valuable, the most important takeaway was learning how to approach complex problems methodically and thoughtfully.
 
 This course has laid a strong foundation for future work in data science, research, and analytical fields.
+
+I would truly love to take this course again in the future and I recommend it to  all students, no matter what field they are interested in. 

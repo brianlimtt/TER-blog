@@ -5,6 +5,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [My Results](#my-results)
+- [Notebook & Code](#notebook--code)
 - [What I Learned](#what-i-learned)
   - [1. Data Cleaning is Critical](#1-data-cleaning-is-critical)
   - [2. Exploratory Data Analysis is More Than Visuals](#2-exploratory-data-analysis-is-more-than-visuals)
@@ -33,6 +34,17 @@ After carefully combining datasets, analyzing relationships, and experimenting w
 ### **Rank: 87 / 2,851 participants**
 
 Being in the **top 3%** was extremely rewarding. It validated the approach I took and showed the power of **systematic analysis and thoughtful modeling**.
+
+---
+
+## Notebook & Code
+
+To make this project reproducible, I’m including the full Jupyter notebook used for data cleaning, exploratory data analysis, feature engineering, and modeling.
+
+- **Jupyter Notebook (.ipynb):** _[Final Notebook](https://github.com/brianlimtt/TER-blog/blob/main/final-notebook.ipynb)_  
+
+I also used the following data sets for the code: **ps-s6e1-14** and **ps-s6e1-08**.
+The notebook contains the complete end-to-end workflow, from raw data to final submission.
 
 ---
 

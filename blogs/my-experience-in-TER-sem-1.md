@@ -91,4 +91,8 @@ Through EDA, ISLP concepts, regression, classification, and cumulative units, I 
 
 This course has laid a strong foundation for future work in data science, research, and analytical fields.
 
+
+
+## Personal Notes
+Mental health means a lot to many differnet students. What Mr. Andrade does to bring awareness and support to these matters truly means a lot to a student. Although it wasn't a big factor in the class, knowing that a teacher like Mr. Andrade would actually acommadate a student's well being and support them to actually acheieve goals makes all of his classes a joy to attend. 
 I would truly love to take this course again in the future and I recommend taking it to all students, no matter what field they are interested in. 
